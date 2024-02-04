@@ -1,0 +1,190 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-y: scroll;
+}
+
+#main-heading {
+    text-align: center;
+    color: rgb(8, 8, 116);
+    text-shadow: 2px 2px 12px #75c5eb;
+    font-weight: bold
+}
+
+h2 {
+    text-decoration: underline;
+    font-weight: bold;
+    padding-left: 70px;
+    font-size: 30px;
+
+}
+
+.skating-image-container {
+    float: left;
+
+}
+
+.skills-images {
+    width: 300px;
+    padding: 10px;
+
+
+}
+
+.text-skills {
+    position: absolute;
+    width: 200px;
+    border: solid blue;
+    padding: 5px;
+}
+
+.text-skills:hover{
+    background-image: linear-gradient(rgb(139, 228, 255),rgb(77, 77, 247));
+    color: rgb(17, 9, 36);
+}
+
+#forward {
+    left: 60px;
+}
+
+#backward {
+    left: 380px;
+}
+
+#crossover {
+    left: 700px;
+}
+
+#stickhandle-header {
+    position: absolute;
+    bottom: -50px;
+}
+
+.stickhandling-image-container{
+    position: absolute;
+    bottom: -250px;
+   
+}
+
+#three-holes{
+height: 180px;
+}
+
+#first-stickhandle{
+    bottom: -480px;
+    left: 60px;
+}
+
+#second-stickhandle{
+    bottom: -460px;
+    left: 380px;
+}
+
+#toedrag-text{
+    bottom: -460px;
+    width: 260px;
+    left: 670px;
+}
+
+#arrow-one{
+    position: absolute;
+    bottom: -244px;
+    left: 882px;
+    font-size: 12px;
+}
+
+#arrow-two{
+    position: absolute;
+    bottom: -233px;
+    left: 895px;
+    font-size: 12px;
+}
+
+#arrow-three{
+    position: absolute;
+    font-size: 35px;
+    bottom: -270px;
+    left: 820px;
+}
+
+#shooting-header{
+    position: absolute;
+    bottom: -600px;
+}
+
+.shooting-image-container{
+    position: absolute;
+    bottom: -825px;
+}
+
+#snapshot{
+    height: 170px;
+}
+
+#wristshot-text{
+    bottom: -1080px;
+    left: 40px;
+    width: 240px;
+}
+
+#slapshot-text{
+    bottom: -1097px;
+    left: 360px;
+    width: 260px;
+}
+
+#snapshot-text{
+    bottom: -1079px;
+    left: 710px;
+
+}
+
+#shooting-note{
+    position: absolute;
+    bottom: -1040px;
+    left: 980px;
+    width: 300px;
+}
+.shot-list{
+    font-size: 14px;
+    color: rgb(31, 1, 87);
+    font-weight: bold;
+}
+
+#note-for-shot{
+    color: red;
+    font-size: 15px;
+}
+
+#defensive-header{
+    position: absolute;
+    bottom: -1200px;
+}
+
+.defensive-image-container{
+    position: absolute;
+    bottom: -1450px;
+}
+
+#sticklift-image{
+    height: 200px;
+}
+
+#bodycheck-text{
+    bottom: -1750px;
+    left: 60px; 
+}
+
+#pokecheck-text{
+    bottom: -1605px;
+    left: 380px;
+}
+
+#sticklift-text{
+    bottom: -1620px;
+    left: 710px;
+}
+
+
+

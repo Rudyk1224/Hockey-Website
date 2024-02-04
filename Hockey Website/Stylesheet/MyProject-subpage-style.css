@@ -1,0 +1,255 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-right: 90px;
+    font-size: 40px;
+    color: rgb(8, 8, 116);
+    text-shadow: 2px 2px 12px #75c5eb;
+    font-weight: bold
+}
+
+#hockey-rink {
+
+    margin-left: 350px;
+    width: 40%;
+    position: relative;
+    z-index: 1;
+    border: solid blue;
+    border-radius: 5px;
+
+}
+
+.player {
+    position: absolute;
+    z-index: 2;
+    width: 30px;
+}
+
+.button {
+    position: absolute;
+    z-index: 3;
+    width: 45px;
+    height: 2px;
+    font-size: 7px;
+    padding-bottom: 8px;
+    padding-top: 4px;
+    border-width: 1px;
+    border-color: #75c5eb;
+    background-color: rgb(5, 5, 114);
+    color: rgb(227, 227, 238);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+
+#red-goalie {
+
+    left: 807px;
+    top: 227px;
+
+}
+
+#black-goalie {
+    left: 407px;
+    top: 227px;
+
+}
+
+#black-goalie-button {
+    left: 415px;
+    top: 240px;
+}
+
+#black-ld {
+    left: 523px;
+    top: 190px;
+}
+
+#black-ld-button {
+    left: 490px;
+    top: 200px;
+}
+
+#black-rd {
+    left: 523px;
+    top: 268px;
+}
+
+#black-rd-button {
+    left: 490px;
+    top: 275px;
+}
+
+#black-lw {
+    left: 585px;
+    top: 190px;
+}
+
+#black-lw-button {
+    left: 560px;
+    top: 200px;
+}
+
+#black-rw {
+    left: 585px;
+    top: 270px;
+
+}
+
+#black-rw-button {
+    left: 560px;
+    top: 275px;
+}
+
+#black-c {
+    left: 595px;
+    top: 227px;
+    transform: rotateY(180deg);
+}
+
+#black-c-button {
+    left: 562px;
+    top: 235px;
+}
+
+#red-ld {
+    left: 685px;
+    top: 190px;
+    transform: rotateY(180deg);
+}
+
+#red-rd {
+    left: 685px;
+    top: 268px;
+    transform: rotateY(180deg);
+}
+
+#red-lw {
+    left: 620px;
+    top: 190px;
+    transform: rotateY(180deg);
+}
+
+#red-rw {
+    left: 620px;
+    top: 270px;
+    transform: rotateY(180deg);
+}
+
+#red-c {
+    left: 616px;
+    top: 227px;
+
+}
+
+.popup {
+    cursor: pointer;
+
+
+}
+
+
+/* The actual popup (appears on top) */
+.popup .popup-text {
+    visibility: hidden;
+    width: 160px;
+    height: 150px;
+    overflow-y: scroll;
+    font-size: 15px;
+    background: linear-gradient(rgb(138, 205, 236), rgb(232, 231, 238));
+    color: #1d0444;
+    text-align: center;
+    border: solid;
+    border-radius: 5px;
+    padding: 25px 5px 0px 5px;
+    position: absolute;
+    bottom: 150%;
+    left: 50%;
+
+}
+
+#myPopup {
+    right: 400%;
+    left: -250%;
+
+}
+
+#myPopupThree {
+    left: -300%;
+}
+
+#myPopupFive {
+    left: 115%;
+    bottom: -350%;
+    top: 180%;
+}
+
+.exit {
+    position: absolute;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 20px;
+    top: -24px;
+    left: -3px;
+    color: rgb(245, 29, 21);
+
+
+}
+
+.popup .show {
+    visibility: visible;
+
+}
+
+
+
+.popup .exitPopup {
+    visibility: default;
+
+}
+
+.hockey-paragraphs {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hockey-paragraph-description {
+    font-size: 16px;
+
+    line-height: 125%;
+    position: absolute;
+    bottom: 220px;
+    width: 300px;
+    z-index: 2;
+    border: ridge blue;
+    border-width: thick;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+#right-paragraph {
+
+    right: 10px;
+    bottom: 222px;
+    width: 370px;
+}
+
+#heading-zones {
+    position: absolute;
+    left: 420px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#list-zones {
+    position: absolute;
+    left: 150px;
+    bottom: -50px;
+    line-height: 125%;
+    padding-bottom: 5px;
+}

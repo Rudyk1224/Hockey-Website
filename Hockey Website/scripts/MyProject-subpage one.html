@@ -1,0 +1,142 @@
+<!doctype html>
+
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Website 1 (the basics) </title>
+    <link href="../Stylesheet/MyProject-subpage-style.css" rel="stylesheet">
+</head>
+
+<body id="ice-background" background="../images/ice-background.jpg">
+
+    <img class="player" id="red-goalie" src="../images/red goalie.png" alt="red goalie">
+    <img class="player" id="black-goalie" src="../images/black goalie.png" alt="black goalie">
+
+
+    <img class="player" id="black-ld" src="../images/black defenceman.png" alt="black defenceman">
+
+    <img class="player" id="black-rd" src="../images/black defenceman.png" alt="blackdefenceman">
+
+    <img class="player" id="black-lw" src="../images/black winger.png" alt="black winger">
+
+    <img class="player" id="black-rw" src="../images/black winger.png" alt="black winger">
+
+    <img class="player" id="black-c" src="../images/black center.png" alt="black center">
+
+    <img class="player" id="red-ld" src="../images/red defenceman.png" alt="red defenceman">
+    <img class="player" id="red-rd" src="../images/red defenceman.png" alt="red defenceman">
+    <img class="player" id="red-lw" src="../images/red winger.png" alt="red winger">
+    <img class="player" id="red-rw" src="../images/red winger.png" alt="red winger">
+    <img class="player" id="red-c" src="../images/red center.png" alt="red center">
+
+
+
+
+
+
+    <h1> The Hockey Rink</h1>
+
+
+
+    <img id="hockey-rink" src="../images/HockeyRink-Zones.png" alt="picture of hockey drawing board">
+
+
+    <div class="popup">
+
+        <button class="button" id="black-goalie-button" onclick="grabInfo('myPopup','exit')">Click me
+            <span class="popup-text" id="myPopup">Hey there! I am the goalie. My job is to stop pucks using my glove,
+                blocker, stick and my entire body! I will scan the ice and will look for potential plays that have a
+                good chance of ending up at the back of my net. If I don't play well, we lose almost every time, so I am
+                the most important player on the team (not to brag). <p class="exit"
+                    onclick="closeInfo('myPopup','exit')">
+                    &times; </p> </span>
+        </button>
+
+        <button class="button" id="black-ld-button" onclick="grabInfo('myPopupTwo','exit')"> Click me
+
+            <span class="popup-text" id="myPopupTwo"> Hey, I am the left defenceman. My job is to support my defensive
+                partner (mister right defenceman) to defend in the defensive zone by hitting and blocking shots, and to
+                move the puck out of the defensive zone. I am also responsible for generating offense in the offensive
+                zone by helping to create shots and passes from the offensive zone blueline. <p class="exit"
+                    onclick="closeInfo('myPopupTwo','exit')"> &times; </p> </span>
+
+
+        </button>
+
+        <button class="button" id="black-rd-button" onclick="grabInfo('myPopupThree','exit')"> Click me <span
+                class="popup-text" id="myPopupThree"> What's up dude, I am the right-dman. My job is the same as my
+                buddy, the left-dman. I have to support him at all times and make sure we are positioned properly at all
+                times so we dont allow any odd man rushes or breakaways. You know what I'm sayin? <p class="exit"
+                    onclick="closeInfo('myPopupThree','exit')"> &times; </p> </span>
+        </button>
+
+        <button class="button" id="black-lw-button" onclick="grabInfo('myPopupFour','exit')"> Click me
+            <span class="popup-text" id="myPopupFour">Hello, I am the left wing. In the defensive zone, my job is to
+                cover the other teams left defenceman and not allow him to take a shot from the blueline. I also need to
+                make sure the puck is being moved out of our zone safely. In the offensive zone, my job is to do fancy
+                rushes or simple cycles, to try to score a goal or at least create momentum. <p class="exit"
+                    onclick="closeInfo('myPopupFour','exit')"> &times; </p> </span>
+        </button>
+
+        <button class="button" id="black-rw-button" onclick="grabInfo('myPopupFive','exit')"> Click me
+            <span class="popup-text" id="myPopupFive">Hi, I am the right wing. My job is the same as the left wing,
+                except on the right side. Us wingers spend most of our time near the boards, so I am used to those
+                physical board battles. <p class="exit" onclick="closeInfo('myPopupFive','exit')"> &times; </p> </span>
+        </button>
+
+        <button class="button" id="black-c-button" onclick="grabInfo('myPopupSix','exit')"> Click me <span
+                class="popup-text" id="myPopupSix">Hey, I am the center. I have probably have the most important job on
+                the ice, apart from the goalie. In the defensize zone, I assist the defenceman in breaking the puck out
+                of the zone, blocking shots and hitting behind the net. In the offensive zone, most plays will run
+                through me. I will always be scanning my options to see whether I need to pass, shoot, cycle or hit.<p
+                    class="exit" onclick="closeInfo('myPopupSix','exit')"> &times; </p> </span></button>
+
+    </div>
+
+    <div class="hockey-paragraphs">
+        <p class="hockey-paragraph-description"> The game of hockey is played with a cylyndrical puck and a long stick
+            with a curvy end. Players wear skates to move around the ice and protective equipment such as helmets and
+            tons of padding all over the body to protect themselves (hockey can be dangerous!). There are three 20 minute periods in hockey. The goal of the game is to use your stick to get the puck in the opposing net (scoring a goal). The best way to score is to pass the puck to cover more ice. In the game of hockey, there is 1
+            goalie, 2 defenceman and 3 forwards on at a time.  </p>
+
+        <p class="hockey-paragraph-description" id="right-paragraph"> In a typical hockey game, there are always
+            substitutions for the forwards and the defenceman. In total, a team will carry 12 forwards and 6 defenceman.
+            Each set of 3 forwards is referred to as a "forward line". Similarly, each set of 2 defenceman is called a
+            "defensive pair". The 1st forward line is the line that starts the game and usually contains the best
+            forwards or the forwards that play the best together. The 1st defensive pair similarly consists of the 2
+            best defenceman. In regards to goalies, a team will carry 2 goalies, with 1 of those goalies playing the
+            entire game. The goalie playing the game is known as the "starter", while the goalie sitting on the bench is
+            known as the "backup". </p>
+
+        <h3 id="heading-zones"> There are 3 zones in the hockey rink:</h3>
+        <ol id="list-zones">
+            <li id="The Defensize zone"> <u>The Defensive (Defending) zone </u> <br> This is the zone that your team is
+                defending
+                in. In
+                other words, this is the area of the ice where you try to stop the other team from scoring a goal in
+                your net. In this zone, players will block shots from the opposing team and will do anything in their
+                power to get the puck out of this zone. </br> </li>
+            <li> <u> The Neutral zone </u> <br> This is the zone that your team is trying to get into the offensive zone
+                (or the defensive zone of the other team). This area of ice should be well contested as it serves as a
+                passageway to get into the dangerous areas closer to your oppononent's net. </br> </li>
+            <li> <u> The Offensive (Attacking) zone </u> <br> This is the zone that you want to be in if you want to
+                score goals and
+                win games. In this area of the ice, players pass the puck, use fancy stick tricks to get past defenders
+                and ultimately shoot the puck into the net past the goalie. </br> </li>
+        </ol>
+    </div>
+    <script src="main javascript.js">
+
+
+
+    </script>
+
+</body>
+
+
+
+
+
+</html>
